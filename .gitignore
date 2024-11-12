@@ -1,0 +1,34 @@
+__pycache__
+*.py[cod]
+.pytest_cache
+.mypy_cache
+*.class
+bin/
+build/
+db.sqlite3
+# Virtualenv is recreated as needed. Don't commit.
+env/
+venv/
+virtualenv/
+# private environment vars
+.env
+local_settings.py
+# code coverage
+.coverage
+htmlcov/
+/coverage
+# logs, etc
+*.log
+docs/
+# IDE and MacOS files
+.idea/
+*.iml
+.classpath
+.project
+.pydevproject
+.metadata
+.settings
+.vscode/
+.DS_Store
+# project specific
+pizzatypes.txt
